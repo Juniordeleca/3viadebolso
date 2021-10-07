@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+body {
+  background:  linear-gradient(236.85deg, #f1da09ad 27.26%, #fabd6e 96.03%); 
+  color: yellow;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.container {
+    margin: 40px;
+    background:  linear-gradient(236.85deg, #320358 27.26%, #c83bf3 96.03%);   
+    color: #1C1C1C;
+    border-radius: 20px;
+    padding: 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  }
+
+.titulo {
+    
+    margin-top: 16px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
+
+h1 {
+  margin-top: 16px;
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  color: whitesmoke;
+
+}
+p {
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
+#imgtitulo img{
+  max-width: 100%;
+  max-height: auto;
+
+}
+
+#imgcan img {
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    margin-top: 8px;
+    padding: 2px;
+    border:2px solid #000000;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#btngerar button {
+        color: rgb(41, 41, 97);
+        background: blue;
+        transition: background 1s;
+        transition: transform 1s;
+        transform: translateX(0) scale(0.5);
+      }
+      
+      button:hover,
+      button:focus {
+        border-radius: 5px;
+        background: rgb(10, 218, 10);
+        transform: translateX(10px) scale(1.2);
+      }
